@@ -12,7 +12,8 @@ public class main {
         //practice.sumOfNumbers();
         //practice.sumOfThreeNumbers();
        // practice.additionFormula();
-        practice.multiplicationFormula();
+        //practice.multiplicationFormula();
+        practice.averageOfNumbers();
 
     }
 

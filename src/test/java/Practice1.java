@@ -174,4 +174,16 @@ class Practice {
         System.out.println(num1+"*"+num2+"="+(num1*num2));
 
     }
+    //program6-AverageOfNumbers
+
+    public void averageOfNumbers(){
+        Scanner input=new Scanner(System.in);
+        System.out.println("Give the first number: ");
+        int num1=Integer.valueOf(input.nextLine());
+        System.out.println("Give the first number: ");
+        int num2=Integer.valueOf(input.nextLine());
+        double avgOf2Num=(double)((num1+num2)/2);
+        System.out.println(avgOf2Num);
+
+    }
 }
