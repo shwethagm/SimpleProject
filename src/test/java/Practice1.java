@@ -182,7 +182,7 @@ class Practice {
         int num1=Integer.valueOf(input.nextLine());
         System.out.println("Give the second number: ");
         int num2=Integer.valueOf(input.nextLine());
-        double avgOf2Num=(double)((num1+num2)/2);
+        double avgOf2Num= (num1+num2)/2;
         System.out.println(avgOf2Num);
 
     }
@@ -218,6 +218,55 @@ class Practice {
         System.out.println(num1+"/"+num2+"="+(1.0*num1/num2));
 
 
+
+    }
+    //part1-6-conditional statements
+
+    //program1-Speeding ticket
+
+    public void speedingTicket(){
+
+        Scanner input=new Scanner(System.in);
+        System.out.println("Give speed:");
+
+        int speed=Integer.valueOf(input.nextLine());
+        if(speed>120){
+            System.out.println("Speeding ticket!");
+        }
+    }
+    //program2-orwell
+
+    public void orwell(){
+        Scanner input=new Scanner(System.in);
+            System.out.println("Give a number:");
+                int num=Integer.valueOf(input.nextLine());
+                    if(num==1984){
+                        System.out.println("Orwell");
+                    }
+
+    }
+    //program3-ancient
+
+    public void ancient(){
+        Scanner input=new Scanner((System.in));
+        System.out.println("Give a year:");
+        int num=Integer.valueOf(input.nextLine());
+        if(num<2015){
+            System.out.println("Ancient history!");
+        }
+
+    }
+    //program4-positivity
+    public void positive(){
+
+        Scanner input=new Scanner(System.in);
+        System.out.println("Give a number:");
+        int num=Integer.valueOf(input.nextLine());
+        if(num>0){
+            System.out.println("The number is positive.");
+        }else{
+            System.out.println("The number is negative");
+        }
 
     }
 }

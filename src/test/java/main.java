@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class main {
 
     public static void main(String[]args){
@@ -15,11 +17,14 @@ public class main {
         //practice.multiplicationFormula();
        // practice.averageOfNumbers();
         //practice.averageOfThreeNumbers();
-        practice.simpleCalculator();
+       //
+        // practice.simpleCalculator();
+       // practice.speedingTicket();
+        //practice.orwell();
+       // practice.ancient();
+        practice.positive();
 
     }
-//part1-6-conditional statements
 
-    //program1-Speeding ticket
 
 }
