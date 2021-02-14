@@ -269,4 +269,35 @@ class Practice {
         }
 
     }
+    //program5-adult
+
+    public void adultOrNOt(){
+
+        Scanner input=new Scanner(System.in);
+        System.out.println("How old are you?");
+        int old=Integer.valueOf(input.nextLine());
+        if(old>=18){
+            System.out.println("You are an adult");
+        }else{
+            System.out.println("You are not an adult");
+        }
+    }
+    //program6-Numbersaregreater
+
+    public void largerThanOrEqualTo(){
+        Scanner input=new Scanner(System.in);
+        System.out.println("Give the first number:");
+        int firstNumber=Integer.valueOf(input.nextLine());
+        System.out.println("Give the second number:");
+        int secondNumber=Integer.valueOf(input.nextLine());
+
+        if(firstNumber>secondNumber){
+            System.out.println("Greater number is:"+firstNumber);
+        }else if (firstNumber<secondNumber){
+            System.out.println("Greater number is:"+secondNumber);
+
+        }else{
+            System.out.println("The numbers are equal!");
+        }
+    }
 }

@@ -22,7 +22,9 @@ public class main {
        // practice.speedingTicket();
         //practice.orwell();
        // practice.ancient();
-        practice.positive();
+       // practice.positive();
+        //practice.adultOrNOt();
+        practice.largerThanOrEqualTo();
 
     }
 
