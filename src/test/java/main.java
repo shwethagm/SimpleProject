@@ -13,8 +13,13 @@ public class main {
         //practice.sumOfThreeNumbers();
        // practice.additionFormula();
         //practice.multiplicationFormula();
-        practice.averageOfNumbers();
+       // practice.averageOfNumbers();
+        //practice.averageOfThreeNumbers();
+        practice.simpleCalculator();
 
     }
+//part1-6-conditional statements
+
+    //program1-Speeding ticket
 
 }

@@ -180,10 +180,44 @@ class Practice {
         Scanner input=new Scanner(System.in);
         System.out.println("Give the first number: ");
         int num1=Integer.valueOf(input.nextLine());
-        System.out.println("Give the first number: ");
+        System.out.println("Give the second number: ");
         int num2=Integer.valueOf(input.nextLine());
         double avgOf2Num=(double)((num1+num2)/2);
         System.out.println(avgOf2Num);
+
+    }
+    //program6-AverageOfThreeNumbers
+
+    public void averageOfThreeNumbers(){
+        Scanner input=new Scanner(System.in);
+        System.out.println("Give the first number: ");
+        int num1=Integer.valueOf(input.nextLine());
+        System.out.println("Give the second number: ");
+        int num2=Integer.valueOf(input.nextLine());
+        System.out.println("Give the third number: ");
+        int num3=Integer.valueOf(input.nextLine());
+
+        //multiply by 1.0
+        double avgOfThreeNum=1.0*(num1+num2+num3)/3;
+        System.out.println(avgOfThreeNum);
+
+    }
+
+    //program7-simple calculator
+
+    public void simpleCalculator(){
+        Scanner input= new Scanner(System.in);
+        System.out.println("Give the first number:");
+        int num1=Integer.valueOf(input.nextLine());
+        System.out.println("Give the second number:");
+        int num2=Integer.valueOf(input.nextLine());
+
+        System.out.println(num1+"+"+num2+"="+(num1+num2));
+        System.out.println(num1+"-"+num2+"="+(num1-num2));
+        System.out.println(num1+"*"+num2+"="+(num1*num2));
+        System.out.println(num1+"/"+num2+"="+(1.0*num1/num2));
+
+
 
     }
 }
