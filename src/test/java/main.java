@@ -24,7 +24,9 @@ public class main {
        // practice.ancient();
        // practice.positive();
         //practice.adultOrNOt();
-        practice.largerThanOrEqualTo();
+       // practice.largerThanOrEqualTo();
+        //practice.gradesAndPoints();
+        practice.evenOrOdd();
 
     }
 

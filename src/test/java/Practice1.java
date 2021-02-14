@@ -300,4 +300,43 @@ class Practice {
             System.out.println("The numbers are equal!");
         }
     }
+
+   // program7-Grader And Points
+
+    public void gradesAndPoints(){
+
+        Scanner input=new Scanner(System.in);
+        System.out.println("Give points [0-100]: ");
+        int points=Integer.valueOf(input.nextLine());
+        if(points<0){
+            System.out.println("Grade: impossible!");
+        }else if(points>0&&points<=49){
+            System.out.println("Grade: failed");
+        }else if(points>=50&&points<=59){
+            System.out.println("Grade: 1");
+        }else if(points>=60&&points<=69){
+            System.out.println("Grade: 2");
+        }else if(points>=70&&points<=79){
+            System.out.println("Grade: 3");
+        }else if(points>=80&&points<=89){
+            System.out.println("Grade: 4");
+        }else if(points>=90&&points<=100){
+            System.out.println("Grade: 5");
+        }else{
+            System.out.println("Grade: incredible!");
+        }
+    }
+    //program8-EvenorOdd
+
+    public void evenOrOdd(){
+        Scanner input=new Scanner(System.in);
+        System.out.println("Give a number: ");
+        int number=Integer.valueOf(input.nextLine());
+        if(number%2==0){
+            System.out.println("Number "+ number+" is even.");
+        }else{
+            System.out.println("Number "+ number+" is odd.");
+        }
+
+    }
 }
