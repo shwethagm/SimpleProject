@@ -31,7 +31,8 @@ public class main {
       //  practice.same();
       //  practice.checkAge();
        // practice.leapYear();
-        practice.checkLeap();
+      //  practice.checkLeap();
+        practice.calculateGiftTax();
 
     }
 

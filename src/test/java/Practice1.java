@@ -127,96 +127,95 @@ class Practice {
 //program2-sumofnumbers
 
     public void sumOfNumbers() {
-        Scanner input=new Scanner((System.in));
+        Scanner input = new Scanner((System.in));
         System.out.println("Give the first number: ");
-        int num1=Integer.valueOf(input.nextLine());
+        int num1 = Integer.valueOf(input.nextLine());
         System.out.println("Give the second number:");
-        int num2=Integer.valueOf(input.nextLine());
-        System.out.println("The sum of the numbers is "+(num1+num2));
-        System.out.println("The sum of the numbers is "+num1+num2);
+        int num2 = Integer.valueOf(input.nextLine());
+        System.out.println("The sum of the numbers is " + (num1 + num2));
+        System.out.println("The sum of the numbers is " + num1 + num2);
 
 
     }
     //program3-sumofthreenumbers
 
     public void sumOfThreeNumbers() {
-        Scanner input=new Scanner((System.in));
+        Scanner input = new Scanner((System.in));
         System.out.println("Give the first number: ");
-        int num1=Integer.valueOf(input.nextLine());
+        int num1 = Integer.valueOf(input.nextLine());
         System.out.println("Give the second number:");
-        int num2=Integer.valueOf(input.nextLine());
+        int num2 = Integer.valueOf(input.nextLine());
         System.out.println("Give the third number:");
-        int num3=Integer.valueOf(input.nextLine());
-        System.out.println("The sum of the numbers is "+(num1+num2+num3));
-        System.out.println("The sum of the numbers is "+num1+num2+num3);
+        int num3 = Integer.valueOf(input.nextLine());
+        System.out.println("The sum of the numbers is " + (num1 + num2 + num3));
+        System.out.println("The sum of the numbers is " + num1 + num2 + num3);
 
 
     }
     //program4-Additionformula
 
-    public void additionFormula(){
-        Scanner input=new Scanner(System.in);
+    public void additionFormula() {
+        Scanner input = new Scanner(System.in);
         System.out.println("Give the first number:");
-        int num1=Integer.valueOf(input.nextLine());
+        int num1 = Integer.valueOf(input.nextLine());
         System.out.println("Give the second number:");
-        int num2=Integer.valueOf(input.nextLine());
-        System.out.println(num1+"+"+num2+"="+(num1+num2));
+        int num2 = Integer.valueOf(input.nextLine());
+        System.out.println(num1 + "+" + num2 + "=" + (num1 + num2));
 
     }
     //program5-Multiplication Problem
 
-    public void multiplicationFormula(){
-        Scanner input=new Scanner(System.in);
+    public void multiplicationFormula() {
+        Scanner input = new Scanner(System.in);
         System.out.println("Give the first number:");
-        int num1=Integer.valueOf(input.nextLine());
+        int num1 = Integer.valueOf(input.nextLine());
         System.out.println("Give the second number:");
-        int num2=Integer.valueOf(input.nextLine());
-        System.out.println(num1+"*"+num2+"="+(num1*num2));
+        int num2 = Integer.valueOf(input.nextLine());
+        System.out.println(num1 + "*" + num2 + "=" + (num1 * num2));
 
     }
     //program6-AverageOfNumbers
 
-    public void averageOfNumbers(){
-        Scanner input=new Scanner(System.in);
+    public void averageOfNumbers() {
+        Scanner input = new Scanner(System.in);
         System.out.println("Give the first number: ");
-        int num1=Integer.valueOf(input.nextLine());
+        int num1 = Integer.valueOf(input.nextLine());
         System.out.println("Give the second number: ");
-        int num2=Integer.valueOf(input.nextLine());
-        double avgOf2Num= (num1+num2)/2;
+        int num2 = Integer.valueOf(input.nextLine());
+        double avgOf2Num = (num1 + num2) / 2;
         System.out.println(avgOf2Num);
 
     }
     //program6-AverageOfThreeNumbers
 
-    public void averageOfThreeNumbers(){
-        Scanner input=new Scanner(System.in);
+    public void averageOfThreeNumbers() {
+        Scanner input = new Scanner(System.in);
         System.out.println("Give the first number: ");
-        int num1=Integer.valueOf(input.nextLine());
+        int num1 = Integer.valueOf(input.nextLine());
         System.out.println("Give the second number: ");
-        int num2=Integer.valueOf(input.nextLine());
+        int num2 = Integer.valueOf(input.nextLine());
         System.out.println("Give the third number: ");
-        int num3=Integer.valueOf(input.nextLine());
+        int num3 = Integer.valueOf(input.nextLine());
 
         //multiply by 1.0
-        double avgOfThreeNum=1.0*(num1+num2+num3)/3;
+        double avgOfThreeNum = 1.0 * (num1 + num2 + num3) / 3;
         System.out.println(avgOfThreeNum);
 
     }
 
     //program7-simple calculator
 
-    public void simpleCalculator(){
-        Scanner input= new Scanner(System.in);
+    public void simpleCalculator() {
+        Scanner input = new Scanner(System.in);
         System.out.println("Give the first number:");
-        int num1=Integer.valueOf(input.nextLine());
+        int num1 = Integer.valueOf(input.nextLine());
         System.out.println("Give the second number:");
-        int num2=Integer.valueOf(input.nextLine());
+        int num2 = Integer.valueOf(input.nextLine());
 
-        System.out.println(num1+"+"+num2+"="+(num1+num2));
-        System.out.println(num1+"-"+num2+"="+(num1-num2));
-        System.out.println(num1+"*"+num2+"="+(num1*num2));
-        System.out.println(num1+"/"+num2+"="+(1.0*num1/num2));
-
+        System.out.println(num1 + "+" + num2 + "=" + (num1 + num2));
+        System.out.println(num1 + "-" + num2 + "=" + (num1 - num2));
+        System.out.println(num1 + "*" + num2 + "=" + (num1 * num2));
+        System.out.println(num1 + "/" + num2 + "=" + (1.0 * num1 / num2));
 
 
     }
@@ -224,188 +223,223 @@ class Practice {
 
     //program1-Speeding ticket
 
-    public void speedingTicket(){
+    public void speedingTicket() {
 
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Give speed:");
 
-        int speed=Integer.valueOf(input.nextLine());
-        if(speed>120){
+        int speed = Integer.valueOf(input.nextLine());
+        if (speed > 120) {
             System.out.println("Speeding ticket!");
         }
     }
     //program2-orwell
 
-    public void orwell(){
-        Scanner input=new Scanner(System.in);
-            System.out.println("Give a number:");
-                int num=Integer.valueOf(input.nextLine());
-                    if(num==1984){
-                        System.out.println("Orwell");
-                    }
+    public void orwell() {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Give a number:");
+        int num = Integer.valueOf(input.nextLine());
+        if (num == 1984) {
+            System.out.println("Orwell");
+        }
 
     }
     //program3-ancient
 
-    public void ancient(){
-        Scanner input=new Scanner((System.in));
+    public void ancient() {
+        Scanner input = new Scanner((System.in));
         System.out.println("Give a year:");
-        int num=Integer.valueOf(input.nextLine());
-        if(num<2015){
+        int num = Integer.valueOf(input.nextLine());
+        if (num < 2015) {
             System.out.println("Ancient history!");
         }
 
     }
-    //program4-positivity
-    public void positive(){
 
-        Scanner input=new Scanner(System.in);
+    //program4-positivity
+    public void positive() {
+
+        Scanner input = new Scanner(System.in);
         System.out.println("Give a number:");
-        int num=Integer.valueOf(input.nextLine());
-        if(num>0){
+        int num = Integer.valueOf(input.nextLine());
+        if (num > 0) {
             System.out.println("The number is positive.");
-        }else{
+        } else {
             System.out.println("The number is negative");
         }
 
     }
     //program5-adult
 
-    public void adultOrNOt(){
+    public void adultOrNOt() {
 
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("How old are you?");
-        int old=Integer.valueOf(input.nextLine());
-        if(old>=18){
+        int old = Integer.valueOf(input.nextLine());
+        if (old >= 18) {
             System.out.println("You are an adult");
-        }else{
+        } else {
             System.out.println("You are not an adult");
         }
     }
     //program6-Numbersaregreater
 
-    public void largerThanOrEqualTo(){
-        Scanner input=new Scanner(System.in);
+    public void largerThanOrEqualTo() {
+        Scanner input = new Scanner(System.in);
         System.out.println("Give the first number:");
-        int firstNumber=Integer.valueOf(input.nextLine());
+        int firstNumber = Integer.valueOf(input.nextLine());
         System.out.println("Give the second number:");
-        int secondNumber=Integer.valueOf(input.nextLine());
+        int secondNumber = Integer.valueOf(input.nextLine());
 
-        if(firstNumber>secondNumber){
-            System.out.println("Greater number is:"+firstNumber);
-        }else if (firstNumber<secondNumber){
-            System.out.println("Greater number is:"+secondNumber);
+        if (firstNumber > secondNumber) {
+            System.out.println("Greater number is:" + firstNumber);
+        } else if (firstNumber < secondNumber) {
+            System.out.println("Greater number is:" + secondNumber);
 
-        }else{
+        } else {
             System.out.println("The numbers are equal!");
         }
     }
 
-   // program7-Grader And Points
+    // program7-Grader And Points
 
-    public void gradesAndPoints(){
+    public void gradesAndPoints() {
 
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Give points [0-100]: ");
-        int points=Integer.valueOf(input.nextLine());
-        if(points<0){
+        int points = Integer.valueOf(input.nextLine());
+        if (points < 0) {
             System.out.println("Grade: impossible!");
-        }else if(points>0&&points<=49){
+        } else if (points > 0 && points <= 49) {
             System.out.println("Grade: failed");
-        }else if(points>=50&&points<=59){
+        } else if (points >= 50 && points <= 59) {
             System.out.println("Grade: 1");
-        }else if(points>=60&&points<=69){
+        } else if (points >= 60 && points <= 69) {
             System.out.println("Grade: 2");
-        }else if(points>=70&&points<=79){
+        } else if (points >= 70 && points <= 79) {
             System.out.println("Grade: 3");
-        }else if(points>=80&&points<=89){
+        } else if (points >= 80 && points <= 89) {
             System.out.println("Grade: 4");
-        }else if(points>=90&&points<=100){
+        } else if (points >= 90 && points <= 100) {
             System.out.println("Grade: 5");
-        }else{
+        } else {
             System.out.println("Grade: incredible!");
         }
     }
     //program8-EvenorOdd
 
-    public void evenOrOdd(){
-        Scanner input=new Scanner(System.in);
+    public void evenOrOdd() {
+        Scanner input = new Scanner(System.in);
         System.out.println("Give a number: ");
-        int number=Integer.valueOf(input.nextLine());
-        if(number%2==0){
-            System.out.println("Number "+ number+" is even.");
-        }else{
-            System.out.println("Number "+ number+" is odd.");
+        int number = Integer.valueOf(input.nextLine());
+        if (number % 2 == 0) {
+            System.out.println("Number " + number + " is even.");
+        } else {
+            System.out.println("Number " + number + " is odd.");
         }
 
     }
     //program9-password
 
-    public void password(){
-      Scanner input=new Scanner(System.in);
+    public void password() {
+        Scanner input = new Scanner(System.in);
         System.out.println("Password?");
-        String password=input.nextLine();
-        if(password.equals("Caput Draconis")){
+        String password = input.nextLine();
+        if (password.equals("Caput Draconis")) {
             System.out.println("Welcome!");
-        }else{
+        } else {
             System.out.println("Off with you!");
         }
 
     }
     //program10- same
 
-    public void same(){
-        Scanner input =new Scanner(System.in);
+    public void same() {
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter the first string: ");
-        String first=input.nextLine();
+        String first = input.nextLine();
         System.out.println("Enter the second string: ");
-        String second=input.nextLine();
-        if(first.equals(second)){
+        String second = input.nextLine();
+        if (first.equals(second)) {
             System.out.println("Same");
-        }else{
+        } else {
             System.out.println("Different");
         }
 
     }
     //program11-checkage
 
-    public void checkAge(){
+    public void checkAge() {
 
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("How old are you? ");
-        int age=Integer.valueOf(input.nextLine());
-        if((age>=0)&&(age<=120)){
+        int age = Integer.valueOf(input.nextLine());
+        if ((age >= 0) && (age <= 120)) {
             System.out.println("OK");
-        }else{
+        } else {
             System.out.println("Impossible");
         }
     }
     //program12-LeapYear
 
-    public void leapYear(){
+    public void leapYear() {
 
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Give a year: ");
-        int year=Integer.valueOf(input.nextLine());
+        int year = Integer.valueOf(input.nextLine());
 
-        if((year%4==0 ) && (year%100!=0) || (year%400==0) ){
-            System.out.println("The year is a leap year"+year);
-        }else{
-            System.out.println("The year is not a leap year"+year);
+        if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {
+            System.out.println("The year is a leap year" + year);
+        } else {
+            System.out.println("The year is not a leap year" + year);
         }
     }
-    public void checkLeap(){
-        Scanner input=new Scanner(System.in);
+
+    public void checkLeap() {
+        Scanner input = new Scanner(System.in);
         System.out.println("Give a year: ");
-        int year=Integer.valueOf(input.nextLine());
-        if(year%400==0){
-            System.out.println("The year is a leap year"+year);
-        } else if(year%100==0){
-            System.out.println("The year is not a leap year"+year);
-        }else if(year%4==0){
-            System.out.println("The year is a leap year"+year);
+        int year = Integer.valueOf(input.nextLine());
+        if (year % 400 == 0) {
+            System.out.println("The year is a leap year" + year);
+        } else if (year % 100 == 0) {
+            System.out.println("The year is not a leap year" + year);
+        } else if (year % 4 == 0) {
+            System.out.println("The year is a leap year" + year);
         }
     }
     //program13-gifttax
 
+    public void calculateGiftTax() {
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Value of the gift?");
+        int gift = Integer.valueOf(input.nextLine());
+        double giftvalue;
+        if ((gift< 5000) ) {
+
+
+            System.out.println("No Tax");
+        }
+       else if ((gift == 5000) && (gift <= 25000)) {
+
+            giftvalue = (100 + (gift - 5000) * 0.08);
+            System.out.println(giftvalue);
+        } else if ((gift >= 25000) && (gift <= 55000)) {
+
+            giftvalue = (1700 + (gift - 25000) * 0.1);
+            System.out.println(giftvalue);
+        } else if ((gift >= 55000) && (gift <= 200000)) {
+
+            giftvalue = (4700 + (gift - 25000) * 0.12);
+            System.out.println(giftvalue);
+        } else if ((gift >= 200000) && (gift <= 1000000)) {
+
+            giftvalue = (22100 + (gift - 25000) * 0.15);
+            System.out.println(giftvalue);
+        } else if ((gift >= 1000000)) {
+
+            giftvalue = (142100 + (gift - 25000) * 0.17);
+            System.out.println(giftvalue);
+        }
+    }
 }
