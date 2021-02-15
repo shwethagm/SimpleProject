@@ -388,10 +388,24 @@ class Practice {
         System.out.println("Give a year: ");
         int year=Integer.valueOf(input.nextLine());
 
-        if((year%4==0 ) && (year%100==0) && (year%400==0) ){
+        if((year%4==0 ) && (year%100!=0) || (year%400==0) ){
             System.out.println("The year is a leap year"+year);
         }else{
             System.out.println("The year is not a leap year"+year);
         }
     }
+    public void checkLeap(){
+        Scanner input=new Scanner(System.in);
+        System.out.println("Give a year: ");
+        int year=Integer.valueOf(input.nextLine());
+        if(year%400==0){
+            System.out.println("The year is a leap year"+year);
+        } else if(year%100==0){
+            System.out.println("The year is not a leap year"+year);
+        }else if(year%4==0){
+            System.out.println("The year is a leap year"+year);
+        }
+    }
+    //program13-gifttax
+
 }

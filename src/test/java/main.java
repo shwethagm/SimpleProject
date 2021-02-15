@@ -30,7 +30,8 @@ public class main {
        // practice.password();
       //  practice.same();
       //  practice.checkAge();
-        practice.leapYear();
+       // practice.leapYear();
+        practice.checkLeap();
 
     }
 
