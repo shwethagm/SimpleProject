@@ -339,4 +339,59 @@ class Practice {
         }
 
     }
+    //program9-password
+
+    public void password(){
+      Scanner input=new Scanner(System.in);
+        System.out.println("Password?");
+        String password=input.nextLine();
+        if(password.equals("Caput Draconis")){
+            System.out.println("Welcome!");
+        }else{
+            System.out.println("Off with you!");
+        }
+
+    }
+    //program10- same
+
+    public void same(){
+        Scanner input =new Scanner(System.in);
+        System.out.println("Enter the first string: ");
+        String first=input.nextLine();
+        System.out.println("Enter the second string: ");
+        String second=input.nextLine();
+        if(first.equals(second)){
+            System.out.println("Same");
+        }else{
+            System.out.println("Different");
+        }
+
+    }
+    //program11-checkage
+
+    public void checkAge(){
+
+        Scanner input=new Scanner(System.in);
+        System.out.println("How old are you? ");
+        int age=Integer.valueOf(input.nextLine());
+        if((age>=0)&&(age<=120)){
+            System.out.println("OK");
+        }else{
+            System.out.println("Impossible");
+        }
+    }
+    //program12-LeapYear
+
+    public void leapYear(){
+
+        Scanner input=new Scanner(System.in);
+        System.out.println("Give a year: ");
+        int year=Integer.valueOf(input.nextLine());
+
+        if((year%4==0 ) && (year%100==0) && (year%400==0) ){
+            System.out.println("The year is a leap year"+year);
+        }else{
+            System.out.println("The year is not a leap year"+year);
+        }
+    }
 }

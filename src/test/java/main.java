@@ -26,7 +26,11 @@ public class main {
         //practice.adultOrNOt();
        // practice.largerThanOrEqualTo();
         //practice.gradesAndPoints();
-        practice.evenOrOdd();
+        //practice.evenOrOdd();
+       // practice.password();
+      //  practice.same();
+      //  practice.checkAge();
+        practice.leapYear();
 
     }
 
